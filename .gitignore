@@ -1,0 +1,61 @@
+# Java and Maven Build Artifacts
+*.class
+target/
+bin/
+*.jar
+*.war
+*.ear
+dependency-reduced-pom.xml
+
+# Eclipse IDE Files
+.project
+.classpath
+.settings/
+.metadata/
+
+# Spring Boot and Application Files
+*.log
+logs/
+*.log.*
+spring.log
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Temporary and Cache Files
+*.swp
+*~
+*.tmp
+*.bak
+*.cache
+.DS_Store
+
+# IntelliJ IDEA (if you switch IDEs later)
+.idea/
+*.iml
+
+# Environment and Secrets
+.env
+*.secret
+*.key
+*.pem
+
+# Local Development
+*.h2.db
+*.mv.db
+*.lock.db
+
+# Ensure recipes.txt is included (override any accidental exclusion)
+!recipes.txt
